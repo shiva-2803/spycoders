@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AchieversIT Student Dashboard</title>
+    <style>
+        body{
+            background-color: aqua;
+            margin: 0;
+        }
+        header{
+            background-color: navy;
+            display: flex;
+            justify-content: center;
+            font-style: italic;
+            font-size: 25px;
+            padding: 20px;
+            
+        }
+      
+        section{
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin: 30px;
+            flex-wrap: wrap;
+        }
+        section div{
+            width: 45%;
+            background-color: white;
+            border: 2px solid yellow;
+            border-radius: 20px;
+            padding: 20px;
+        }
+        h2{
+            text-align: center;
+            color: navy;
+            font-style: italic;
+        }
+        h3{
+            text-align: center;
+            color: green;
+        }
+        section div:first-child{
+            border:4px solid gold;
+            background-color: rgb(138, 203, 246);
+        }
+        section div:first-child h2::after{
+            content: "🏆Top performer";
+            color: red;
+            font-size: 15px;
+        }
+        section div:nth-child(even){
+            background-color:#dbab92;
+        }
+        h3::before{
+            content:"🎓"
+        }
+        h3::after{
+            content: " ✔ Certified";
+        }
+        p::first-letter{
+            font-size: 30px;
+            color: red;
+            font-weight: bold;
+        }
+        button{
+            background-color: blue;
+            width: 100%;
+            padding: 10px;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover{
+            background: green;
+        }
+    </style>
+</head>
+
+<body>
+        <header>
+            <h1>AchieversIT Student Dashboard</h1>
+        </header>
+    <section>
+        <div>
+            <h2>SHIVA KUMAR</h2>
+            <h3>PYTHON FULLSTACK</h3>
+            <p>Excellent performance in Artificial Intelligence and Machine Learning.</p>
+            <button>Enroll</button>
+        </div>
+         <div>
+            <h2>VENKAT</h2>
+            <h3>Full Stack Development</h3>
+            <p>Completed frontend and backend development successfully.</p>
+            <button>Enroll</button>
+        </div>
+         <div>
+            <h2>RAMA KRISHNA</h2>
+            <h3>Python Programming</h3>
+            <p>Skilled in Python programming and problem solving.</p>
+            <button>Enroll</button>
+        </div>
+         <div>
+            <h2>SWETHA</h2>
+            <h3>Data Science</h3>
+            <p>Interested in data analysis and machine learning techniques.</p>
+            <button>Enroll</button>
+        </div>
+    </section>
+</body>

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <style>
+        body{
+            background-color: aqua;
+            margin: 0;
+        }
+        header{
+            background-color: blue;
+            color: white;
+            text-align: center;
+            justify-content: center;
+            font-style: oblique;
+            text-shadow:3px 3px 3px#9bde0b;
+            padding: 20px;
+            width: 100%;
+            
+        }
+      
+        section{
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin: 30px;
+            flex-wrap: wrap;
+        }
+        section div{
+            width: 45%;
+            background-color: white;
+            border: 2px solid yellow;
+            border-radius: 20px;
+            padding: 20px;
+        }
+        h2{
+            text-align: center;
+            color: navy;
+            font-style: italic;
+        }
+        h2::before{
+            content: "🛒";
+        }
+        h3{
+            text-align: center;
+            color: green;
+        }
+        section div:first-child{
+            border:4px solid gold;
+            background-color: rgb(138, 203, 246);
+        }
+        section div:first-child h2::after{
+            content: "🔥Hot deal";
+            color: red;
+            font-size: 15px;
+        }
+        section div:last-child h2::after{
+            content: "⚠ Limited Stock";
+            color: orange;
+            font-size: 15px;
+        }
+        section div:nth-child(even){
+            background-color:#d92a76;
+        }
+        span{
+            color: red;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        p{
+            text-align: center;
+        }
+        .offer::after{
+            content: "20% OFF";
+            background-color: red;
+            border-radius: 20px;
+            color: wheat;
+            padding: 5px;
+            font-size: 15px;
+        }
+        button{
+            background-color: blue;
+            width: 100%;
+            padding: 10px;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover{
+            background: green;
+        }
+    </style>
+</head>
+
+<body>
+        <header>
+            <h1>Shop Easy</h1>
+        </header>
+    <section>
+        <div>
+            <h2>LAPTOP</h2>
+            <p>High-performance laptop for work and study.</p>
+            <h3 class="offer">₹65,000 <span>₹55,000</span></h3>
+            <button>Add to cart</button>
+        </div>
+         <div>
+            <h2>Smart Phone</h2>
+            <p>Latest Android smartphone with fast processor.</p>
+            <h3 class="offer">₹30,000 <span>₹20,000</span></h3>
+            <button>Add to cart</button>
+        </div>
+         <div>
+            <h2>Headphones</h2>
+            <p>Wireless Bluetooth headphones with deep bass.</p>
+            <h3>₹3,000</h3>
+            <button>Add to cart</button>
+        </div>
+         <div>
+            <h2>Smart Watch</h2>
+            <p>Fitness tracking smartwatch with heart-rate monitor.</p>
+            <h3 class="offer">₹5,000 <span>₹4,000</span></h3>
+            <button>Add to cart</button>
+        </div>
+    </section>
+</body>

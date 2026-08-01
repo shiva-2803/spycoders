@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css" integrity="sha512-ApSLB1Pd3/bZN8fWB/RG9YhN/7bd9Hkf3AGaE2mPfebjrxagjuBtx2GcgdqIlJkUzwylBo61r9Xa9NmgBI0swA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        a {
+            color: white;
+            text-decoration: none;
+        }
+
+        ul {
+            list-style-type: none;
+
+            display: flex;
+            gap: 40px;
+        }
+
+        header {
+            display: flex;
+            background-color: navy;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0px 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div>
+            <h1 style="color: white;">Portfolio</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Skills</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Contact</a></li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <section style="display: flex; gap: 40px; width: 80%; background-color: aquamarine; margin:auto; margin-top: 50px;">
+        <div>
+            <img style="border-radius: 50%; width: 200px; height: 200px; border: 4px solid aqua;" src="data:image/jpeg;base64,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"
+                alt="">
+        </div>
+        <div>
+            <h1>Raghavendra Boya</h1>
+            <h3>Senior Frontend Developer</h3>
+            <p>Passionate frontend developer with 4+ years of experience crafting beautiful, responsive web
+                applications. Specialized in React.js and modern JavaScript, with a strong focus on user experience and
+                performance optimization.</p>
+                <button><i class="fa-solid fa-download" style="color: rgb(32, 31, 31);"></i>Download CV</button>
+        </div>
+        <div>
+
+            <i class="fa-brands fa-linkedin-in" style="color: rgb(234, 226, 226); background-color: brown; border-radius: 50%; padding: 30px;"></i>
+        </div>
+    </section>
+    <section style="display: flex; gap: 20px; margin: auto; background-color: chocolate; justify-content: center;">
+        <div style="width: 300px; background-color: rgb(71, 71, 71); color: white;padding: 20px; border-radius:20px ;">
+            <h2>Frontend Development</h2>
+            <p>Expert in React.js, JavaScript, HTML5, CSS3, with a focus on building scalable applications</p>
+        </div>
+       <div style="width: 300px; background-color: rgb(71, 71, 71); color: white;padding: 20px; border-radius:20px ;">
+            <h2>Frontend Development</h2>
+            <p>Expert in React.js, JavaScript, HTML5, CSS3, with a focus on building scalable applications</p>
+        </div>
+         <div style="width: 300px; background-color: rgb(71, 71, 71); color: white;padding: 20px; border-radius:20px ;">
+            <h2>Frontend Development</h2>
+            <p>Expert in React.js, JavaScript, HTML5, CSS3, with a focus on building scalable applications</p>
+        </div>
+    </section>
+</body>
+
+</html>

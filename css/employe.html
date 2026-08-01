@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Portal</title>
+</head>
+    <style>
+        body{
+            background-color: rgb(204, 17, 236);
+        }
+        header{
+            display: flex;
+            justify-content: center;
+            font-style: italic;
+            font-size: 30px;
+            color: whitesmoke;
+            text-shadow:3px 3px 3px red;
+        }
+        section{
+            width: 80%;
+            margin: auto;
+        }
+        section div{
+            border: 2px solid black;
+            background-color: white;
+            border-radius: 10px;
+            padding: 15px;
+            margin: 15px 0;
+        }
+        h2{
+            font-style:oblique;
+            color:navy;
+            font-size: 30px;
+        }
+        p{
+            color: green;
+            font-weight: bold;
+        }
+        h2::before{
+            content: "👨‍💼";
+        }
+        section div:first-child h2::after{
+            content: "⭐ Star Performer";
+            font-size: medium;
+            color: gold;
+        }
+        section div:last-child h2::after{
+            content: "(Support Team)";
+            font-size: medium;
+            color: blue;
+        }
+        section div:nth-child(even){
+            background: lightyellow;
+        }
+        #lead~div{
+            background:#eef8ff;
+            
+        }
+         #lead+div{
+            border: 4px solid red;
+            background: lightgreen;
+        }
+    </style>
+    <body>
+        <header>
+            <h1>Employee Portal</h1>
+        </header>
+        <section>
+            <div>
+                <h2>Shiva</h2>
+                <p>Frontend Developer</p>
+            </div>
+            <div id="lead">
+                <h2>Rahul</h2>
+                <p>Team lead</p>
+            </div>
+            <div>
+                <h2>Priya</h2>
+                <p>Software Engineer</p>
+            </div>
+            <div>
+                <h2>Ramesh</h2>
+                <p>Backend Developer</p>
+            </div>
+            <div>
+                <h2>Kiran</h2>
+                <p>HR Executive</p>
+            </div>
+        </section>
+    </body>
+</html>
