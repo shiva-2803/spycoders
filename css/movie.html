@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+</head>
+<style>
+    body {
+        background-color: #000;
+        color: white;
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    header{
+        background-color:red;
+        color: white;
+        padding: 20px;
+        font-style: italic;
+        text-align: center;
+        letter-spacing: 5px;
+        text-shadow: 2px 2px 4px #000000;
+    }
+    nav {
+        background-color: #333;
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+        gap: 20px;
+    }
+    nav a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    nav a:first-child{
+        color: rgb(222, 219, 9);
+        font-weight: bold;
+    }
+    section {
+        width: 80%;
+        margin: auto;
+    }
+    section div {
+        border: 1px solid #ccc;
+        margin: 10px;
+        padding: 10px;
+        width: 30%;
+        border-radius: 10px;
+        margin-bottom: 20px;
+        background-color: #1c1c1c;
+        box-shadow: 0 4px 8px white;
+    }
+    h2 {
+        font-style:oblique;
+        color: #ff0000;
+        font-weight: bold;
+        font-size: 25px;
+    }
+    section div:first-child h2::after {
+        content: "🔥 Top Pick";
+        font-size: medium;
+        color: gold;
+    }
+    section div:last-child h2::after {
+        content: "🎬 Newly added";
+        font-size: medium;
+        color: rgb(233, 162, 162);
+    }
+    section div:nth-child(even) {
+        background-color: #2c2c2c;
+    }
+    h2::before {
+        content: "🎥";
+    }
+    h3 {
+        font-style: oblique;
+        color: #e0ebe0;
+        font-weight: bold;
+        font-size: 20px;
+    }
+    .trending::after {
+        content: " 🔥 Trending";
+        background-color: red;
+        color: white;
+        padding: 3px 5px;
+        border-radius: 10px;
+        font-size: 8px;
+    }
+    p {
+        color: #f0f2f4;
+        font-weight: bold;
+    }
+    p::first-letter {
+        font-size: 20px;
+        color: red;
+        font-weight: bold;
+    }
+    button {
+        background-color: red;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    button:hover {
+        background-color: green;
+    }
+</style>
+<body>
+    <header>
+        <h1>Netflix</h1>
+    </header>
+     <nav>
+            <a href="#">Home</a>
+            <a href="#">Movies</a>
+            <a href="#">Series</a>
+            <a href="#">Documentary</a>
+        </nav>
+    <section>
+        <div>
+            <h2>Peddi</h2>
+            <p>Genre: commercial, Drama</p>
+            <h3>Release Year: 2026</h3>
+            <button>Watch Now</button>
+        </div>
+        <div>
+            <h2 class="trending">Stranger Things</h2>
+            <p>Genre: Science Fiction, Horror</p>
+            <h3>Release Year: 2016</h3>
+            <button>Watch Now</button>  
+        </div>
+        <div>
+            <h2>The Crown</h2>
+            <p>Genre: Historical Drama</p>
+            <h3>Release Year: 2016</h3>
+            <button>Watch Now</button>
+        </div>
+        <div>
+            <h2 class="trending">Evil Burn Dead</h2>
+            <p>Genre: Horror, Thriller</p>
+            <h3>Release Year: 2026</h3>
+            <button>Watch Now</button>
+        </div>
+    </section>
+</html>

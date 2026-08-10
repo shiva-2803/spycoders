@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <style>
+        body {
+            background: rgb(230, 210, 210);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            display: flex;
+            gap: 40px;
+        }
+
+        .box1,
+        .box2 {
+            width: 280px;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+            padding: 20px;
+            gap: 40px;
+        }
+
+        .logo img {
+            width: 50px;
+            height: 50px;
+            border-radius: 80px;
+            border: 4px solid;
+        }
+
+        .logo {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .logo{
+            text-align: center;
+        }
+        .logo p{
+            margin-top: -10px;
+        }
+        .photo{
+            margin-bottom: 0px;
+        }
+        .photo img{
+            width: 90px;
+            height: 90px;
+            border-radius: 50px;
+            display: block;
+            margin: 0px auto;
+            object-fit: cover;
+            border: 4px solid navy;
+            margin-top: -20px;
+            margin-bottom: 20px;
+        }
+        .details{
+            text-align: center;
+            margin-top: auto;
+        }
+        .info{
+            text-align: left;
+        }
+        .label{
+            text-align: center;
+            font-weight: 500;
+            display: inline-block;
+
+        }
+        .colon{
+            text-align: center;
+            width: 10px;
+            display: inline-block;
+        }
+        .barcode img{
+            width: 180px;
+            height: 60px;
+            display: block; 
+            margin: 0px auto;
+           
+        }
+        .list{
+            list-style-type: disc;
+        }
+        .sign{
+            text-align: right;
+        }
+        .line{
+    width:120px;
+    margin-left: auto;
+    height:2px;
+    background:black;
+}
+     </style>
+</head>
+
+<body>
+    <div class="container">
+        <section class="box1">
+            <div class="logo">
+                <img src="https://imgs.search.brave.com/X3rJSXSRUviId77znZf14v5apMXN-3G1OOuIlRRWVBk/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pbWcu/bWFnbmlmaWMuY29t/L3ByZW1pdW0tdmVj/dG9yL2NyZWF0aXZl/LWxvZ28tZGVzaWdu/LXRlY2hub2xvZ3kt/Y29tcGFueS12ZWN0/b3ItaWxsdXN0cmF0/aW9uXzEyNTMyMDIt/MTcyNDQuanBnP3Nl/bXQ9YWlzX2h5YnJp/ZCZ3PTc0MCZxPTgw"
+                    alt="logo">
+                <h1>Company Name</h1>
+                <p>TagLine here</p>
+            </div>
+            <div class="photo">
+                <img src="https://i.pravatar.cc/150?img=69" alt="photo">
+            </div>
+            <div class="details">
+                <h1>Roman</h1>
+                <p>Graphic Designer</p>
+            </div>
+            <div class="info">
+                <p><span class="label">ID NO</span><span class="colon">:</span>00-123-456-789</p>
+                <p><span class="label">D.O.B</span><span class="colon">:</span>07-09-2002</p>
+                <p><span class="label">B.Group</span><span class="colon">:</span>B+</p>
+                <p><span class="label">PHONE</span><span class="colon">:</span>+91 9876543210</p>
+                <p><span class="label">EMAIL</span><span class="colon">:</span>email.@gmail.com</p>
+            </div>
+
+        </section>
+        <section class="box2">
+            <div class="logo">
+                <img src="https://imgs.search.brave.com/X3rJSXSRUviId77znZf14v5apMXN-3G1OOuIlRRWVBk/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pbWcu/bWFnbmlmaWMuY29t/L3ByZW1pdW0tdmVj/dG9yL2NyZWF0aXZl/LWxvZ28tZGVzaWdu/LXRlY2hub2xvZ3kt/Y29tcGFueS12ZWN0/b3ItaWxsdXN0cmF0/aW9uXzEyNTMyMDIt/MTcyNDQuanBnP3Nl/bXQ9YWlzX2h5YnJp/ZCZ3PTc0MCZxPTgw"
+                    alt="logo">
+                <h1>Company Name</h1>
+                <p>TagLine here</p>
+            </div>
+            <div class="barcode">
+                <img src="https://barcode.tec-it.com/barcode.ashx?data=1234567890&code=Code128&dpi=96" alt="barcode">
+
+            </div>
+            <div class="tc">
+                <h3>Terms & conditions</h3>
+                <ul class="list">
+                    <li>It is a long established fact that a reader
+                        will be distracted by
+                    </li>
+                    <li>It is a long established fact that a reader
+                        will be distracted by
+                    </li>
+                    <li>It is a long established fact thata reader
+                        will be distracted by
+                    </li>
+                </ul>
+            </div>
+            <div class="sign">
+                <div class="signpic">
+                    <img src="https://dummyimage.com/180x60/ffffff/000000&text=Signature" alt="sign">
+                </div>
+                <div class="line"></div>
+                <div class="my">Your Signature</div>
+            </div>
+
+        </section>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu card</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #29e41f;
+        }
+
+        header {
+            background-color: #fcf4f4;
+            padding: 20px;
+            font-size: 24px;
+            font-style: oblique;
+            text-align: center;
+        }
+
+        section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+        }
+
+        section div {
+            border: 1px solid #ccc;
+            margin: 10px;
+            padding: 10px;
+            width: 30%;
+            border-radius: 10px;
+            background-color: #f7a66d;
+        }
+
+        h2 {
+            text-align: center;
+            font-size: 30px;
+            color: #f0f2f4;
+        }
+
+        section div:first-child h2::after {
+            content: "⭐ Most Ordered";
+            font-size: medium;
+            color: gold;
+        }
+
+        section div:last-child h2::after {
+            content: "🔥 Chef Recommendation";
+            font-size: medium;
+            color: rgb(236, 213, 213);
+        }
+
+        section div:nth-child(even) {
+            background-color: #b7cc3e;
+        }
+
+        h2::before {
+            content: "🍽️";
+        }
+
+        .special::after {
+            content: " 👨‍🍳 Chef Special";
+            background-color: red;
+            color: white;
+            padding: 3px 8px;
+            border-radius: 10px;
+            font-size: 12px;
+        }
+
+        h4 {
+            text-align: center;
+            font-size: 20px;
+            color: #010910;
+        }
+
+        p {
+            text-align: justify;
+            font-size: 16px;
+            color: #05073b;
+        }
+
+        p::first-letter {
+            font-size: 30px;
+            color: red;
+            font-weight: bold;
+        }
+
+        button {
+            display: block;
+            margin: 10px auto;
+            padding: 10px 20px;
+            background-color: #d30e0e;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #29f413;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Amma Restaurant</h1>
+    </header>
+    <section>
+        <div>
+            <h2>Idly</h2>
+            <h4>Price: 20</h4>
+            <p>Idly is a traditional South Indian breakfast dish made from fermented rice and urad dal (black gram)
+                batter. It is soft, fluffy, and typically served with coconut chutney and sambar.</p>
+            <button>Order Now</button>
+        </div>
+        <div>
+            <h2 class="special">Dosa</h2>
+            <h4>Price: 30</h4>
+            <p>Dosa is a popular South Indian breakfast item made from a fermented batter of rice and urad dal. It is
+                typically served with coconut chutney and sambar.</p>
+            <button>Order Now</button>
+        </div>
+        <div>
+            <h2>Vada</h2>
+            <h4>Price: 25</h4>
+            <p>Vada is a deep-fried snack made from urad dal (black gram) and spices. It is often served with coconut
+                chutney or sambar.</p>
+            <button>Order Now</button>
+        </div>
+        <div>
+            <h2>Upma</h2>
+            <h4>Price: 20</h4>
+            <p>Upma is a savory South Indian breakfast dish made from semolina (rava) cooked with vegetables, spices,
+                and sometimes nuts. It is often served with coconut chutney or pickle.</p>
+            <button>Order Now</button>
+        </div>
+        <div>
+            <h2 class="special">Chapathi</h2>
+            <h4>Price: 30</h4>
+            <p>Chapathi is a type of unleavened flatbread made from whole wheat flour. It is a staple in Indian cuisine
+                and is often served with curries, vegetables, or lentils.</p>
+            <button>Order Now</button>
+        </div>
+    </section>
+</body>
+
+</html>

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <style>
+        body{
+            margin: 0px;
+            padding: 0%;
+            font-family:arial,sans-serif;
+            background-color: yellow;
+        }
+        header{
+            background-color: blue;
+            text-align: center;
+            padding:20px;
+            position: sticky;
+            color: white;
+            top: 0;
+            z-index: 1000;
+        }
+        .container{
+            margin: 30px;
+        }
+        .box{
+            width: 250px;
+            height: 100px;
+            background-color: aqua;
+            border: 2px solid black;
+            margin: 30px;
+            padding: 20px;
+        }
+        .static{
+            position: static;
+            background-color: brown;
+        }
+        .relative{
+            position: relative;
+            left: 150px;
+            top: 50px;
+            background-color: orange;
+        }
+        .parent{
+            position: relative;
+            width: 250px;
+            height: 150px;
+            background: crimson;
+            border: 2px solid black;
+            margin: 30px;
+        }
+        .badge{
+            position: absolute;
+            top: 10px;
+            right: 20px;
+            background: red;
+            padding: 5px 10px;
+            border-radius: 10px;
+            color: white;
+        }
+        .fixed{
+            position: fixed;
+            bottom: 20px;
+            right: 10px;
+            background-color: green;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 10px;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>CSS Postion Examples</header>
+    <div class="container">
+        <h2>1.static position</h2>
+        <div class="box static">Static postion</div>
+    </div>
+    <h2>2.Relative position</h2>
+    <div class="box relative">Relative postion</div>
+    <h2>3.Absolute postion</h2>
+    <div class="parent">
+        <img src="https://i.pravatar.cc/134" alt="imag">
+        <div class="badge">NEW</div>
+    </div>
+    <h2>4.Sticky postion</h2>
+    <p>Scroll the page. The blue header stays at the top because it <b>uses position: sticky</b>.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
+         Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
+    </p>
+    </div>
+    <button class="fixed">
+        Whatsapp
+    </button>
+</body>
+
+</html>

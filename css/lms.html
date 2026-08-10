@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LMS</title>
+</head>
+<style>
+    body {
+        background-color: #f4f4f4;
+    }
+
+    header {
+        background-color: #333;
+        color: white;
+        padding: 20px;
+        font-style: italic;
+        text-align: center;
+    }
+
+    section {
+        width: 80%;
+        margin: auto;
+
+    }
+
+    section div {
+        border: 1px solid #150f0f;
+        margin: 10px;
+        padding: 10px;
+        width: 30%;
+        gap: 20px;
+        border-radius: 10px;
+        box-shadow: 5px 5px 0px 5px #210af4;
+        background-color: rgb(48, 219, 234);
+    }
+    h2{
+        font-style: oblique;
+        color: rgb(155, 3, 3);
+    }
+    section div:first-child h2::after{
+        content: "⭐New Assignment";
+        font-size: medium;
+        color: gold;
+    }
+    section div:last-child h2::after{
+        content: "📌Deadline soon";
+        font-size: medium;
+        color: red;
+    }
+    .completed::after{
+        content: "✅Completed";
+        font-size: medium;
+        color: green;
+    }
+    h1::before{
+        content: "📚";
+    }
+    h2::before{
+        content: "📄";
+    }
+    p:first-letter{
+        font-size: 20px;
+        color: red;
+    }
+    section div:nth-child(even){
+        background-color: rgb(255, 255, 255);
+    }
+    p{
+        color: rgb(5, 5, 5);
+        font-weight: bold;
+    }
+    button{
+        background-color: rgb(13, 9, 248);
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    button:hover{
+        background-color:green;
+    }
+</style>
+
+<body>
+    <header>
+        <h1> LMS Assignment Portal</h1>
+    </header>
+    <section>
+        <div>
+            <h2>HTML Assignment</h2>
+            <p>Introduction to Programming</p>
+            <button>Submit</button>
+        </div>
+        <div>
+            <h2>CSS Assignment</h2>
+            <p>Web Development Basics</p>
+            <button>Submit</button>
+        </div>
+        <div>
+            <h2 class="completed">JavaScript Assignment</h2>
+            <p>Data Structures and Algorithms</p>
+            <button>Submit</button>
+        </div>
+        <div>
+            <h2>Python Assignment</h2>
+            <p>Machine Learning Fundamentals</p>
+            <button>Submit</button>
+        </div>
+
+    </section>
+</body>
+
+</html>
