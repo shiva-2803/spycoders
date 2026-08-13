@@ -1,0 +1,269 @@
+/* * {
+    margin: 0;
+    padding: 0%;
+}
+
+body {
+    background-color: bisque;
+}
+
+.box1 {
+    width: 600px;
+    height: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: black;
+    background-image: url(https://images.unsplash.com/photo-1542291026-7eec264c27ff);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-origin: border-box;
+    background-clip: border-box;
+    overflow-y: scroll;
+    color: white;
+    background-size: contain;
+}
+
+.container1 {
+    min-height: 900px;
+    padding: 30px;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.40);
+}
+
+.box2 {
+    width: 700px;
+    height: 400px;
+    margin: 150px auto;
+    padding: 30px;
+    box-sizing: border-box;
+    background-color: red;
+    background-image: url(https://images.unsplash.com/photo-1505740420928-5e560c06d30e);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+}
+
+.container2 {
+    padding: 30px;
+    background-color: rgba(54, 54, 53, 0.4);
+    text-align: center;
+}
+
+.text {
+    text-align: center;
+    font-weight: bold;
+    background: radial-gradient(rgb(12, 12, 12),rgb(226, 13, 13),rgb(202, 211, 26));
+    -webkit-text-fill-color: transparent;
+background-clip: text;
+color: transparent;
+}
+
+.login-section {
+    width: 100%;
+    height: 700px;
+    background-image: url(https://images.unsplash.com/photo-1519608487953-e999c86e7455);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-box {
+    width: 280px;
+    padding: 40px;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 2px solid rgba(255, 255, 255, 0.4);
+    border-radius: 20px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+.login-box h1 {
+    text-align: center;
+    font-size: 40px;
+    background: linear-gradient(90deg,yellow, green, red);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+}
+
+.login-box label {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.login-box input {
+    width: 100%;
+    padding: 13px;
+
+    box-sizing: border-box;
+
+    border: none;
+
+    border-radius: 8px;
+
+    outline: none;
+
+    background-color: rgba(255, 255, 255, 0.85);
+
+    font-size: 15px;
+
+}
+
+.login-box button {
+    width: 100%;
+
+    padding: 13px;
+
+    margin-top: 25px;
+
+    border: none;
+
+    border-radius: 8px;
+
+    cursor: pointer;
+
+    background-color: white;
+
+    color: black;
+}
+
+.login-box button:hover {
+
+    background-color: lightgray;
+}
+.space{
+    height: 700px;
+} */
+ * {
+    margin: 0;
+    padding: 0%;
+}
+
+body {
+    background-color: bisque;
+}
+.box1{
+    width: 700px;
+    height: 500px;
+    background-color: black;
+    background-image: url(https://images.unsplash.com/photo-1542291026-7eec264c27ff);
+    padding: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-origin: border-box;
+    overflow-y: scroll;
+    box-sizing: border-box;
+    color: white;
+    margin: 40px auto;
+    background-clip: border-box;
+    /* background-size: contain; */
+}
+.container1{
+    width: 600px;
+    padding: 20px;
+    background-color: rgba(0,0,0,0.4);
+    text-align: center;
+}
+.box2{
+    width: 700px;
+    height: 400px;
+    padding: 150px ;
+    margin: 50px auto;
+    background-color: antiquewhite;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url(https://images.unsplash.com/photo-1505740420928-5e560c06d30e);
+    color: white;
+}
+.container2{
+    text-align: center;
+    background-color:bisque;
+    background-color: rgba(0,0,0,0.4);
+
+}
+.text{
+    text-align: center;
+    font-size: 60px;
+    font-weight: bolder;
+    background:radial-gradient(red,rgb(16, 16, 15),blue);
+    background-clip: text;
+    -webkit-text-fill-content: transparent;
+    color: transparent;
+}
+.login-section{
+    width: 100%;
+    height: 700px;
+    background-image: url(https://images.unsplash.com/photo-1519608487953-e999c86e7455);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-box{
+    width: 280px;
+    padding: 40px;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(12px);
+    -webiket-backdrop-filter:blur(12px);
+    color: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.4);
+    border-radius: 20px;
+    box-shadow: rgb(16, 16, 15);
+    color: white;
+}
+.login-box h1{
+    text-align: center;
+    font-size: 40px;
+    background: linear-gradient(black,lightgreen,blue);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+}
+.login-box label{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.login-box input{
+    width: 100%;
+    padding: 13px;
+    background-color: rgba(255, 255, 255, 0.15);
+    box-sizing: border-box;
+    outline:none;
+    background-color: rgba(255, 255, 255, 0.85);
+    font-size: 15px;
+    border-radius: 10px;
+}
+.login-box button{
+    background-color: white;
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border:none;
+    background-color: white;
+    color: black;
+}
+.login-box button:hover{
+    background-color: gray;
+}
+.space{
+    height: 200px;
+}
