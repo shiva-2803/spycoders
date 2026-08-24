@@ -159,14 +159,15 @@ body {
     background-color: black;
     background-image: url(https://images.unsplash.com/photo-1542291026-7eec264c27ff);
     padding: 20px;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-repeat: repeat;
+    background-size: contain;
     background-origin: border-box;
     overflow-y: scroll;
     box-sizing: border-box;
     color: white;
     margin: 40px auto;
     background-clip: border-box;
+    background-attachment: local;
     /* background-size: contain; */
 }
 .container1{
