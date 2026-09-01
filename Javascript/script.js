@@ -90,4 +90,3 @@ console.log(e); // after value is added we get the value 500000
 
 
 */
-const
