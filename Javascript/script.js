@@ -89,4 +89,27 @@ console.log(e); // after value is added we get the value 500000
 -cannot be hoisted but not initialized with undefined
 
 
+
+### TDZ (Temporal Dead Zone)
+
+TDZ is the time between the **start of a scope** and the point where a `let` or `const` variable is declared.
+
+During this time, you **cannot access the variable**.
+
+Example:
+
+```javascript id="t6k4of"
+console.log(x); // ❌ ReferenceError
+
+let x = 10;
+
+console.log(x); // ✅ 10
+```
+
+### Simple rule:
+
+* `var` before declaration → `undefined`
+* `let` before declaration → `ReferenceError` (TDZ)
+* `const` before declaration → `ReferenceError` (TDZ)
+
 */
