@@ -52,6 +52,14 @@
 // let c = 30;
 // let sum = b + c;
 // console.log("Sum of b and c is: " + sum);
+
+
+
+
+// 02/09/2026
+
+
+
 let name = "Shiva";
 let _age = 25;
 let $city = "Bengaluru";
@@ -116,3 +124,76 @@ var x = 10;
 function test() {
     var x = 20;
     console.log(x);
+}
+test();
+console.log(x); 
+
+
+let countryName = "India";
+function outer(){
+    let state="andhra Pradesh";
+    function inner(){
+        let city = "Kurnool";
+        console.log(countryName); // Output: India
+        console.log(state); // Output: andhra Pradesh
+        console.log(city); // Output: Kurnool
+    }
+    inner();
+}
+outer();    
+
+var a = 10;
+function firstcl() {
+    var b = 20;
+    function second() {
+        var c = 30;
+        console.log(a); // Output: 10
+        console.log(b); // Output: 20
+        console.log(c); // Output: 30
+    }
+    second();
+}
+firstcl();
+
+
+
+let language = "javascript";
+function course(){
+    let topic = "Scope"
+    function lesson(){
+        let level = "beginner"
+        console.log(language);
+        console.log(topic);
+        console.log(level);
+    }
+    lesson();
+}
+course();
+
+
+let college = "ABC college";
+function student(){
+    let studentName = "Shiva";
+    function details(){
+        let course = "JavaScript";
+        console.log(college);
+        console.log(studentName);
+        console.log(course);
+    }
+    details();
+}
+student();
+
+
+let company = "Google";
+function employee(){
+    let employeeName = "Shiva";
+    function work(){
+        let role = "Developer";
+        console.log( company);
+        console.log(employeeName);
+        console.log(role);
+    }
+    work();
+}
+employee();

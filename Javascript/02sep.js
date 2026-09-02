@@ -106,6 +106,4 @@ function outer() {
 }
 outer();
 
-//outside the function, we cannot access the variables declared inside the function
-//console.log(state); // ❌ Error: state is not defined
-//console.log(city); // ❌ Error: city is not defined
+
