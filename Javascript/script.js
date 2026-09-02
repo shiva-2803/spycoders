@@ -1,4 +1,6 @@
 /* 
+01/09/2026
+
 What is variable in javascript?
 
 A variable is a container for storing values. It allows you to store and manipulate data in your program. 
@@ -111,5 +113,12 @@ console.log(x); // ✅ 10
 * `var` before declaration → `undefined`
 * `let` before declaration → `ReferenceError` (TDZ)
 * `const` before declaration → `ReferenceError` (TDZ)
+
+
+
+
+
+
+
 
 */
