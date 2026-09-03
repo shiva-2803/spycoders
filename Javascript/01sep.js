@@ -105,7 +105,7 @@ console.log(x); // ❌ ReferenceError
 
 let x = 10;
 
-console.log(x); // ✅ 10
+console.log(x); //✅ 10
 ```
 
 ### Simple rule:
