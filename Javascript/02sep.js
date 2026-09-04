@@ -67,7 +67,6 @@ variables declared with let or const within a block (e.g., inside an if statemen
 variables declared with var within a function have function scope and can only be accessed within that function.
 
 
-dat
 */
 let myName = "John";
 function showName() {
