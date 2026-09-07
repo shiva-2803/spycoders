@@ -112,6 +112,18 @@ console.log(a <= b);
 
 Logical Operators:
 Logical operators are used to combine or reverse conditions.
+let age = 20;
+let hasID = true;
+let isStudent = false;
+
+// AND && if any one is false it is false
+console.log(age >= 18 && hasID);
+
+// OR || if any one is true it is true
+console.log(age >= 18 || isStudent);
+
+// NOT ! it is reverse of value
+console.log(!hasID);
 
 
 

@@ -199,104 +199,161 @@
 // employee();
 
 
-let name = "Shiva";
-let age = 23;
-let isStudent = true;
-let adress;
-console.log(name);
-console.log(typeof name);
-console.log(age);
-console.log(typeof age);
-console.log(isStudent);
-console.log(typeof isStudent);
-console.log(adress);
-console.log(typeof adress);
 
-let user = null;
-console.log(user);
-console.log(typeof user);
-user="Shiva";
-console.log(user);
-console.log(typeof user);
-
-let student ={
-    myName:"Shiva",
-    age1:23,
-    course:"JavaScript",
-}
-student.city="Bengulur"
-console.log(student);
-console.log(student.myName);
-console.log(student.age1);
+// 03/09/2026
 
 
-let product = {
-    name: "Laptop",
-    price: 50000,
-    available: true,
-    discount: null
-};
-console.log(product);
-console.log(typeof product.name);
-console.log(typeof product.price);
-console.log(typeof product.available);
-console.log(typeof product.discount);
+// let name = "Shiva";
+// let age = 23;
+// let isStudent = true;
+// let adress;
+// console.log(name);
+// console.log(typeof name);
+// console.log(age);
+// console.log(typeof age);
+// console.log(isStudent);
+// console.log(typeof isStudent);
+// console.log(adress);
+// console.log(typeof adress);
 
-let detailes = {
-    name:"Shiva",
-    age:23,
-    isStudent:true,
-    phone:undefined,
-    address:null
-}
-console.log(detailes);
-console.log(
-    typeof detailes.name,
-    typeof detailes.age,
-    typeof detailes.isStudent,
-    typeof detailes.phone,
-    typeof detailes.address
-)
+// let user = null;
+// console.log(user);
+// console.log(typeof user);
+// user="Shiva";
+// console.log(user);
+// console.log(typeof user);
 
-let style={
-        name:"Shiva",
-        age:23,
-        isStudent:true,
-}
-style.age=24;
-style.isStudent=false;
-style.city="Bengulur";
-console.log(style);
-console.log(
-    typeof style.age,
-    typeof style.isStudent,
-)
-
-let style2={
-    name:"Shiva",
-    age:23,
-    adress:{
-        city:"Bengaluru",
-        state:"Karnataka"
-    }
-};
-console.log(style2.name);
-console.log(style2.adress.city);
-console.log(style2.adress.state);
-console.log(typeof style2.adress.state)
+// let student ={
+//     myName:"Shiva",
+//     age1:23,
+//     course:"JavaScript",
+// }
+// student.city="Bengulur"
+// console.log(student);
+// console.log(student.myName);
+// console.log(student.age1);
 
 
-let company={
-    name:"TCS",
-    employee:100,
-    location:{
-        city:"Bengaluru",
-        state:"karnataka",
-    }
-}
-company.location.county="India";
-company.employee=200;
-console.log(typeof company.employee);
-console.log(company.location);
-console.log(company.name);
-console.log(company.location.city);
+// let product = {
+//     name: "Laptop",
+//     price: 50000,
+//     available: true,
+//     discount: null
+// };
+// console.log(product);
+// console.log(typeof product.name);
+// console.log(typeof product.price);
+// console.log(typeof product.available);
+// console.log(typeof product.discount);
+
+// let detailes = {
+//     name:"Shiva",
+//     age:23,
+//     isStudent:true,
+//     phone:undefined,
+//     address:null
+// }
+// console.log(detailes);
+// console.log(
+//     typeof detailes.name,
+//     typeof detailes.age,
+//     typeof detailes.isStudent,
+//     typeof detailes.phone,
+//     typeof detailes.address
+// )
+
+// let style={
+//         name:"Shiva",
+//         age:23,
+//         isStudent:true,
+// }
+// style.age=24;
+// style.isStudent=false;
+// style.city="Bengulur";
+// console.log(style);
+// console.log(
+//     typeof style.age,
+//     typeof style.isStudent,
+// )
+
+// let style2={
+//     name:"Shiva",
+//     age:23,
+//     adress:{
+//         city:"Bengaluru",
+//         state:"Karnataka"
+//     }
+// };
+// console.log(style2.name);
+// console.log(style2.adress.city);
+// console.log(style2.adress.state);
+// console.log(typeof style2.adress.state)
+
+
+// let company={
+//     name:"TCS",
+//     employee:100,
+//     location:{
+//         city:"Bengaluru",
+//         state:"karnataka",
+//     }
+// }
+// company.location.county="India";
+// company.employee=200;
+// console.log(typeof company.employee);
+// console.log(company.location);
+// console.log(company.name);
+// console.log(company.location.city);
+
+
+
+//04/09/2026
+
+
+// let a = 20;
+// let b =6;
+// console.log(a+b);
+// console.log(a-b);
+// console.log(a*b);
+// console.log(a/b);
+// console.log(a%b);
+
+
+// let x = 10;
+// x+=5;
+// console.log(x);
+// x-=3;
+// console.log(x);
+// x*=2;
+// console.log(x);
+// x/=4;
+// console.log(x);
+
+// let y = 15;
+// let z = 10;
+// console.log(y>z);
+// console.log(y<z);
+// console.log(y==z);
+// console.log(y===z);
+// console.log(y!=z);
+// console.log(y>=z);
+
+
+// let age = 22;
+// let hasID = true;
+// console.log(age>=18 && hasID === true);
+// console.log(age>=18 || hasID===false);
+// console.log(!hasID);
+
+// let marks = 75;
+// let result = marks >=45 ? "Pass" : "fail";
+// console.log(result);
+
+let age = 20;
+let marks = 75;
+console.log(age>=18 && marks>=40);
+
+console.log(22=="22");
+console.log(22 === "22")
+console.log(22 !="22");
+console.log(22 !== "22");
