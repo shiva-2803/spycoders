@@ -123,11 +123,11 @@ Output:
 */
 console.log("2"-"5"+"3");
 
-let productPrice =Number(prompt("Enter the price: "));
-console.log(productPrice);
-let productPrice2 = Number(prompt("Enter the price"));
-console.log(productPrice2)
-console.log(productPrice+productPrice2);
+// let productPrice =Number(prompt("Enter the price: "));
+// console.log(productPrice);
+// let productPrice2 = Number(prompt("Enter the price"));
+// console.log(productPrice2)
+// console.log(productPrice+productPrice2);
 
 //Type converstions
 
@@ -140,7 +140,9 @@ console.log(productPrice+productPrice2);
 //boolean("");// false
 //boolean("Hello");//true
 
-
+console.log("hello"-true+false+"2");
+//"hello"-true------>"hello"-1----->NaN(string)
+//NaNfalse---> NaN+0---->NaN+'2------>NaN2;
 
 
 
