@@ -145,5 +145,5 @@ do{
     //     price:
     //     imageUrl:
     //     stock:true/false
-    //     discount:5%,11%  //cards inside the document 4 cards 
+    //     discount:5%,11%  // creating cards inside the document 
     // }
