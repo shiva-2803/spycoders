@@ -69,3 +69,75 @@ function generateBill() {
         `Discount: ₹${discount}<br>`+
         `Final Bill: ₹${finalBill}`
 }
+
+
+//funtion with perameters
+function greet(name){
+    document.getElementById("greet").innerText=`hello ${name}`
+}
+greet("Shiva");
+
+//addition
+function add(a,b){
+    let result=a+b;
+    document.getElementById("pera").innerText=`Result:${result}`
+}
+add(10,20)
+
+//squre of number
+function square(number){
+    let result=number*number;
+    document.getElementById("square").innerText=`Result:${result}`
+}
+square(5)
+
+//student
+function student(name,age){
+    document.getElementById("student").innerText=`Student Name:${name}\nAge:${age}`
+}
+student("Shiva",23);
+
+//area of rectangle
+function area(length,width){
+    let areaOfRectangle=length*width;
+    document.getElementById("rect").innerText=`Area of Rectangle:${areaOfRectangle}`
+}
+area(20,30)
+
+//cart
+function calculateTotal(price, quantity){
+    let total = price*quantity;
+    document.getElementById("total").innerText=`Total:₹${total}`
+}
+calculateTotal(1000, 3);
+
+//discount
+function calculateDiscount(amount, discountPercent){
+    let discount=amount*discountPercent/100;
+    document.getElementById("discount").innerText=`Discount:₹${discount}`
+}
+calculateDiscount(5000, 10);
+
+//employee
+function calculateSalary(basicSalary, bonusPercent){
+    let bonus =basicSalary*bonusPercent/100;
+    let finalSalary=basicSalary+bonus;
+    document.getElementById("salary").innerText=`Final Salary:₹${finalSalary}`
+}
+calculateSalary(30000, 10);
+
+//electricity bill
+function calculateBill(units, rate){
+    let bill=units*rate;
+    document.getElementById("eBill").innerText=`Elecricity Bill:₹${bill}`
+}
+calculateBill(150, 7);
+
+//shopping
+function generateBill(customerName, price, quantity, discountPercent){
+    let subTotal=price*quantity;
+    let discount=subTotal*discountPercent/100;
+    let finalBill=subTotal-discount;
+    document.getElementById("sBill").innerText=`Customer Name:${customerName}\n Subtotal:${subTotal}\n Discount:${discount}\n Final Bill:${finalBill}`
+}
+generateBill("Shiva", 1000, 3, 10);
