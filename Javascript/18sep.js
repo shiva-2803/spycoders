@@ -19,7 +19,20 @@ functionName();
 types of functions:
 function declaration
 A function declaration is a named function that is defined using the function keyword.
+1. to reuse the code
+2.to organize logic
 
+
+use cases:
+1.caluculating total price in e-commerce
+2.validation login form
+3.Showing  user detailes
+
+
+Syntax:
+function functionName(){
+//code
+}
 */
 
 function potato(){
@@ -40,6 +53,10 @@ panner();
 /*
 Function with paremater:
 A function with parameters accepts input values and uses them to perform a task.
+use cases:
+1.price calculation
+2.userName disply
+3.Quantity
 
 Syntax:
 function functionName(parameter1, parameter2) {
@@ -47,6 +64,20 @@ function functionName(parameter1, parameter2) {
 }
 
 functionName(value1, value2);
+
+
+
+3.Function with default paremeters:
+default value is assigned if no value is passed as arg
+Syntax:
+
+function functionName(parameter = defaultValue) {
+    // code
+}
+
+example
+if condtion example shopping with default 5%discount and increse by purchase ammount
+
 
 */
 function recipe(ingrediants){
