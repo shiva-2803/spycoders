@@ -8,13 +8,13 @@ function welcome() {
 
 
 
-function add(a, b) {
+let add=function(a, b) {
     return a + b;
 }
 let result = add(10, 20);
 function addition() {
     document.getElementById("add").innerText = `Result:${result}`
-}
+};
 
 
 

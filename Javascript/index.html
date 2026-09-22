@@ -4,18 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
+<body class="bg-white" id="body">
     <!-- <h2 id="Vote"></h2>
     <ul id="output"></ul> -->
     <button onclick="showMessage()">Show message</button>
     <p  id="msg"></p>
-
+    <h1 id="msg1"></h1>
+    <button onclick="makePayment(success)">Pay</button>
+    <p id="pay"></p>
+    <div>
+        <h1>Clicker App</h1>
+        <p id="counter">Count:0</p>
+        <button onclick="increment()">Increment</button>
+        <button onclick="decrement()">Decrement</button>
+        <button onclick="reset()">Reset</button>
+    </div>
 
 
 
     <section id="cards">
     </section>
-    <script src="21sep.js"></script>
+    <script src="22sep.js"></script>
 </body>
 </html>
