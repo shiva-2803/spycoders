@@ -214,3 +214,20 @@ function stars() {
 }
 
 stars();
+
+//numbers layout
+let nLayout = Number(prompt("Enter the number"))
+let pattern2="";
+function layout(){
+    for( let i=1;i<=nLayout;i++){
+        for(let j=1;j<=i;j++){
+            pattern2+=j;
+        }
+        pattern2+="<br>"
+    }
+    document.getElementById("nLayout").innerHTML = `${pattern2}`;
+}
+layout();
+
+//numbers 1 22 333 4444 55555
+let yLayout=Number(prompt("Enter the number"))
