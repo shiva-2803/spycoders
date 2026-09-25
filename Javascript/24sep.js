@@ -48,3 +48,8 @@ console.log(Date.now());
 console.log(date.toDateString());
 console.log(date.toLocaleString())
 console.log(date.toLocaleTimeString())
+
+
+
+
+
