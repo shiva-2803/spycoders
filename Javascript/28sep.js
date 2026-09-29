@@ -123,7 +123,7 @@ console.log(Cname.slice(0,7));//slice()
 let email1="shiva@gmail.com";
 let email2="javascript@gmail.com";
 let endIndex=email1.indexOf("@");
-console.log(email1.slice(onabort,endIndex));
+console.log(email1.slice(0  ,endIndex));
 
 
 let result=email2.slice(0,3)+"********"+email2.slice(email2.indexOf("@"));
