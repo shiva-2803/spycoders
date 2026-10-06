@@ -116,3 +116,49 @@ button.addEventListener("click", function () {
 document.getElementById("btn1").addEventListener("mousemove", function () {
     alert("item is added");
 });
+
+
+let input1 = document.getElementById("name");
+
+input1.addEventListener("keydown", function () {
+    document.getElementById("output").innerText = "Key is pressed";
+});
+
+let input2= document.getElementById("name2");
+input2.addEventListener("keydown",function(){
+    document.getElementById("message").innerText="key is pressed";
+});
+input2.addEventListener("keyup",function(){
+    document.getElementById("message").innerText="key is relesed";
+});
+
+let input=document.getElementById("name3");
+input.addEventListener("focus",function(){
+    input.style.backgroundColor="yellow";
+});
+input.addEventListener("blur",function(){
+    input.style.backgroundColor="white";
+});
+input.addEventListener("input",function(){
+    document.getElementById("msg").innerText=input.value;
+});
+
+let course=document.getElementById("course");
+course.addEventListener("change",function(){
+    document.getElementById("result").innerText= course.value;
+});
+
+let form=document.getElementById("myForm");
+form.addEventListener("submit",function(event){
+    event.preventDefault();
+    let username=document.getElementById("username").value;
+    document.getElementById("results").innerText=`Welcome ${username}`;
+
+});
+form.addEventListener("reset",function(){
+    document.getElementById("results").innerText="Form is reset";
+});
+
+window.addEventListener("load",function(){
+    document.getElementById("msg2").innerText="page is loaded";
+});
